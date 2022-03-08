@@ -34,4 +34,4 @@ client.once('ready', () => {
   console.log(`${client.user.tag} is ready`)
 })
 
-client.login(config.token);
+client.login(process.env.DISCORD_TOKEN);
