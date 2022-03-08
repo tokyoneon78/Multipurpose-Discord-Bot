@@ -34,4 +34,4 @@ client.once('ready', () => {
   console.log(`${client.user.tag} is ready`)
 })
 
-client.login('ODcxNTE2MjA2NjgxNzE0NzM4.YQcctw.8YhYgUw1UgAVU2e4r7BthKyL0oE');
+client.login(config.token);
